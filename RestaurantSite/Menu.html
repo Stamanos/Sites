@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurant bei Michael</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/Menu.css">
+</head>
+
+<body>
+    <div class="main">
+    <header>
+      <ul>
+        <div id="Area" class="tabcontent">
+          <a href="Area.html"><h1>Area</h1></a>
+        </div>
+        
+        <div id="Menu" class="tabcontent">
+          <a href="Menu.html"><h1>Menu</h1></a>
+        </div>
+        
+        <div id="Taufe" class="tabcontent">
+          <a href="Taufe.html"><h1>Taufe</h1></a>
+        </div>
+        
+        <div id="Contact" class="tabcontent">
+          <a href="Contact.html"><h1>Contact</h1></a>
+        </div>
+        
+        <button class="tablink" onclick="openSubject('Area', this, 'gray')">Area</button>
+        <button class="tablink" onclick="openSubject('Menu', this, 'red')" id="defaultOpen">Menu</button>
+        <button class="tablink" onclick="openSubject('Taufe', this, 'pink')">Taufe</button>
+        <button class="tablink" onclick="openSubject('Contact', this, 'blue')">Contact</button>
+      </ul>
+    </header>
+
+  <div class="cd-slider">
+    <ul>
+      <li>
+        <div class="image">
+          <img src="images/Menu/menu1.jpg" style="width:100%">
+        </div>
+      </li>
+      <li>
+        <div class="image">
+          <img src="images/Menu/menu2.jpg" style="width:100%">
+        </div>
+      </li>
+      <li>
+        <div class="image">
+          <img src="images/Menu/menu3.jpg" style="width:100%">
+        </div>
+      </li>
+      <li>
+        <div class="image">
+          <img src="images/Menu/menu4.jpg" style="width:100%">
+        </div>
+      </li>
+      <li>
+        <div class="image">
+          <img src="images/Menu/menu5.jpg" style="width:100%">
+        </div>
+      </li>
+      <li>
+          <div class="image">
+            <img src="images/Menu/menu6.jpg" style="width:100%">
+          </div>
+        </li>
+        <li>
+            <div class="image">
+              <img src="images/Menu/menu7.jpg" style="width:100%">
+            </div>
+          </li>        
+    </ul>
+  </div> <!--/.cd-slider-->
+
+</div>
+  
+    <script  src="js/Menu.js"></script>
+
+</body>
+</html>
